@@ -1,0 +1,19 @@
+.detailContainer {
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h6 {
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+  }
+
+  .cardBody {
+    p {
+      margin-bottom: 12px;
+      font-size: 15px;
+    }
+  }
+}

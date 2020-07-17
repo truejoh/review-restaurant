@@ -1,0 +1,78 @@
+@import "resources/styles/colors.scss";
+
+.container {
+  .reviewContainer {
+    margin-top: 50px;
+
+    .cardHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h6 {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+    }
+
+    .cardBody {
+      border-bottom: 1px solid $grey;
+
+      .ratingContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          margin-left: 10px;
+          margin-bottom: 10px;
+        }
+      }
+
+      > p {
+        margin-bottom: 8px;
+        font-size: 15px;
+      }
+
+      .commentContainer {
+        margin-top: 15px;
+
+        .cardHeader {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          span {
+            font-size: 15px;
+          }
+        }
+
+        .reply {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          span {
+            font-size: 15px;
+          }
+
+          button {
+            margin-left: 10px;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .noReview {
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    h6 {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  }
+}

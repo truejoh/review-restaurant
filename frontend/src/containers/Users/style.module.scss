@@ -1,0 +1,21 @@
+.container {
+  .table {
+    th:last-child {
+      text-align: center;
+      width: 200px;
+    }
+
+    td {
+      font-size: 15px;
+
+      button {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+}

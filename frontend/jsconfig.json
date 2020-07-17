@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "checkJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "component/*": ["component/*"],
+      "redux/*": ["redux/*"],
+      "resources/*": ["resources/*"],
+      "utils/*": ["utils/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

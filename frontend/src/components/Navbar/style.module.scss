@@ -1,0 +1,24 @@
+@import "resources/styles/colors.scss";
+
+.container {
+  background-color: $white;
+  box-shadow: 0px 3px 5px rgba($black, .16);
+
+  img {
+    margin-right: 20px;
+  }
+
+  .menuItem {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+    cursor: pointer;
+  }
+
+  .logout {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

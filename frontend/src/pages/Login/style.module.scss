@@ -1,0 +1,66 @@
+@import "resources/styles/colors.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../../resources/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .card {
+    height: 320px;
+    width: 450px;
+    margin: auto;
+    background-color: rgba($black, 0.7);
+
+    .cardHeader {
+      h3 {
+        color: $white;
+      }
+    }
+
+    .cardBody {
+      .formField {
+        height: 65px;
+        margin-bottom: 0;
+
+        input {
+          font-size: 15px;
+        }
+
+        span {
+          font-size: 14px;
+          color: $error_color;
+          margin-left: 10px;
+        }
+      }
+
+      .submit {
+        color: $black;
+        background-color: $yellow;
+        width: 100px;
+        float: right;
+
+        &:hover {
+          background-color: $white;
+        }
+
+        &:focus {
+          color: $black;
+        }
+      }
+    }
+
+    .cardFooter {
+      display: flex;
+      justify-content: center;
+      color: $white;
+      font-weight: 500;
+
+      a {
+        margin-left: 5px;
+      }
+    }
+  }
+}
